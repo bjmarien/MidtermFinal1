@@ -4,27 +4,27 @@ import java.util.Date;
 
 public class Faculty extends Employee {
 
-	private String officeHours;
-	private int rank;
+	private String OfficeHours;
+	private int Rank;
 
     public void setofficeHours(String officeHours)
     {
-        this.officeHours = officeHours;
+        this.OfficeHours = officeHours;
     }
 
     public String getofficeHours()
     {
-        return this.officeHours;
+        return this.OfficeHours;
     }
     
     public void setrank(int rank)
     {
-        this.rank = rank;
+        this.Rank = rank;
     }
 
     public int getrank()
     {
-        return this.rank;
+        return this.Rank;
     }    
     
 	public Faculty(String FirstName, String MiddleName, String LastName,
@@ -33,8 +33,8 @@ public class Faculty extends Employee {
 	{
 		super(FirstName, MiddleName, LastName, DOB, Address, Phone_number,
 				Email, officeHours, salary, hireDate);
-		this.officeHours = officeHours;
-		this.rank = rank;
+		this.OfficeHours = officeHours;
+		this.Rank = rank;
 	}
 
 }

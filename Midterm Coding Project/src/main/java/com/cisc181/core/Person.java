@@ -84,7 +84,8 @@ public abstract class Person implements java.io.Serializable {
 		if (matcher.matches()) 
 		{
 			
-			phone_number = newPhone_number;}
+			phone_number = newPhone_number;
+			}
 		else {throw new PersonException(this);
 		}   
 		}

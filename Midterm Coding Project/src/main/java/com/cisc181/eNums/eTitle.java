@@ -1,5 +1,6 @@
 package com.cisc181.eNums;
 
-public enum eTitle {
+public enum eTitle 
+{
 MR, MRS, MS
 }

@@ -7,13 +7,13 @@ public class Course
 	
 	private UUID CourseID;
 	private String CourseName;
-	private int gradePoints;
+	private int GradePoints;
 	
-	public Course(UUID CourseID, String CourseName, int gradePoints) 
+	public Course(UUID CourseID, String CourseName, int GradePoints) 
 	{
 		setCourseID(CourseID);
 		setCourseName(CourseName);
-		setGradePoints(gradePoints);
+		setGradePoints(GradePoints);
 	}
 	
 	public UUID getCourseID() 
@@ -38,12 +38,12 @@ public class Course
 	
 	public int getGradePoints() 
 	{
-		return gradePoints;
+		return GradePoints;
 	}
 	
 	public void setGradePoints(int gradePoints) 
 	{
-		this.gradePoints = gradePoints;
+		this.GradePoints = gradePoints;
 	}
 
 }
